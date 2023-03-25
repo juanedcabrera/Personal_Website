@@ -8,6 +8,12 @@
 body {
     font-family: 'Montserrat', sans-serif;
     margin:0;
+    text-align: center;
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+
 }
 
 h1 {
@@ -16,3 +22,39 @@ h1 {
     text-align: center;
     opacity: 0.4;
 }
+
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    /* bottom: 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav button {
+    margin: 0 auto;
+  }
